@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 375px;
+  margin: auto;
+  height: auto;
+}
+
+.header {
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+  background: #f3f3f3;
+}
+
+.logo {
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
+}
+
+.vector {
+  margin-top: 17px;
+  margin-right: 35px;
+  width: 18px;
+  height: 12px;
+  right: 10%;
+  z-index: 5;
+}
+
+.vector span {
+  display: block;
+  width: 100%;
+  border: 1px solid #28352f;
+}
+
+.vector span:nth-child(2) {
+  margin: 2px 0;
+}
+
+main {
+  width: 375px;
+  height: auto;
+  background: #f3f3f3;
+}
+
+.porfolio {
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  padding: 60px 24px 0 24px;
+  background-image: url(./Images/header-illsutration-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+h2 {
+  padding-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #36b37e;
+}
+
+p {
+  padding-top: 38px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.social {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 45px;
+  gap: 20px;
+}
+
+.social a {
+  font-size: 20px;
+  color: #505f79;
+}
+
+.disabled {
+  text-align: center;
+  margin-top: 65px;
+}
