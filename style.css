@@ -111,7 +111,11 @@ p {
   gap: 20px;
 }
 
-.social a {
+.social li {
+  list-style: none;
+}
+
+.social li a {
   font-size: 20px;
   color: #505f79;
 }
