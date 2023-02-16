@@ -229,6 +229,14 @@ p {
   color: #fff;
 }
 
+.button:hover {
+  background: #36b37f;
+}
+
+.button:active {
+  background: #008552;
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -280,7 +288,29 @@ p {
   align-items: center;
 }
 
-h3 {
+.works li {
+  list-style: none;
+}
+
+.languages {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.frameworks {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.skills {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
