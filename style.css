@@ -197,8 +197,8 @@ p {
 }
 
 .server {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   padding: 0;
   gap: 8px;
 }
