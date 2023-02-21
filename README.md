@@ -126,6 +126,9 @@ You can deploy this project using:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+- GitHub: [@KayembaJonathan](https://github.com/KayembaJonathan)
+- GitHub: [@oluwatobi-fasasi](https://github.com/oluwatobi-fasasi)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
